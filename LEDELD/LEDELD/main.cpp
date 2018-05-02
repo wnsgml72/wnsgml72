@@ -21,6 +21,7 @@ int main(void)
 		for(i;i<7;i++){
 		PORTD&=~(1<<i);
 		_delay_ms(200);
+		printf("dddd");
 	}
 
     }
